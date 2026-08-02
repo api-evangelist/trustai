@@ -1,7 +1,30 @@
 aid: trustai
-name: Trustai
-description: Trustai is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trustai.png
+name: TrustAI
+description: >-
+  TrustAI (trytrust.ai) is a San Francisco-based Y Combinator Summer 2026
+  company founded in 2026 by Hannah Chung and Medha Venkatapathy that provides
+  continuous compliance, governance, and risk assessment for AI agents
+  operating on sensitive enterprise systems, with an initial focus on ERP
+  agents such as SAP Joule. It maps what every agent can reach, then runs
+  evaluations across six domains - data privacy, hallucinations and grounding,
+  permission compliance, robustness at scale, accountability, and security -
+  including adversarial pentests and prompt-injection red-teaming, and maps
+  every risk to controls like SOX, ITGC, ISO 27001, GxP, and the EU AI Act for
+  audit-ready reporting. The company does not currently publish a public
+  developer API, docs, or SDKs. This profile was added to the API Evangelist
+  network as a portfolio-lead stub.
 url: https://raw.githubusercontent.com/api-evangelist/trustai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Agent Governance
+- Compliance
+- Security
+- Risk Assessment
+- ERP
+- B2B
+common:
+- type: DomainSecurity
+  url: security/trustai-domain-security.yml
+- type: Website
+  url: https://trytrust.ai
+- type: PrivacyPolicy
+  url: https://trytrust.ai/legal/privacy
+- type: TermsOfService
+  url: https://trytrust.ai/legal/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/autotrytrustai/
+- type: Twitter
+  url: https://x.com/TryTrustAI
 apis: []
 maintainers:
 - FN: Kin Lane
